@@ -3,6 +3,7 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 import Topbar from "./scenes/global/Topbar";
 import { Route, Routes } from "react-router-dom";
 import Dashboard from './scenes/dashboard'
+import Sidebar from './scenes/global/Sidebar'
 
 
 function App() {
