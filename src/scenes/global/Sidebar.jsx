@@ -47,7 +47,7 @@ const Sidebar = () => {
         "& .pro-sidebar-inner": {
           background: `${colors.primary[400]} !important`,
         },
-        "& .pro-sidebar-wrapper": {
+        "& .pro-icon-wrapper": {
           backgroundColor: "transparent !important",
         },
         "& .pro-inner-item": {
@@ -57,7 +57,7 @@ const Sidebar = () => {
           color: "#868dfb !important",
         },
         "& .pro-menu-item.active": {
-          color: "#868dfb !important",
+          color: "#6870fa !important",
         },
       }}
     >
@@ -96,7 +96,7 @@ const Sidebar = () => {
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src={'/jaxTellerProfile2.jpeg'}
+                  src={`/jaxTellerProfile2.jpeg`}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
